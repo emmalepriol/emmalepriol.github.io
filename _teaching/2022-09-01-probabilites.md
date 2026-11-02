@@ -6,6 +6,7 @@ permalink: "/teaching/probabilites"
 venue: "Université Paris 1 Panthéon-Sorbonne"
 date: 2023-01-01
 location: "Paris, France"
+share: false
 ---
 
 Supports et corrections : à venir.
