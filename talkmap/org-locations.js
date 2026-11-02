@@ -30,7 +30,7 @@ var addressPoints = [
     121.5636796
   ],
   [
-    "Evaluation of BERT-based models on patient data from French social media<br />Medical Informatics Europe 2024 (MIE); Ath\u00e8nes, Gr\u00e8ce",
+    "Evaluation of BERT-based models on patient data from French social media<br />Medical Informatics Europe 2024 (MIE); Athens, Greece",
     37.9755648,
     23.7348324
   ]
