@@ -9,4 +9,4 @@ location: "Paris, France"
 share: false
 ---
 
-Pour revoir la conférence/to see the whole conference : [regarder la captation](https://youtu.be/24_prGk5po4?si=qyoRK73hBKmwFjQf).
+Pour revoir la conférence/to see the whole conference : [video](https://youtu.be/24_prGk5po4?si=qyoRK73hBKmwFjQf)
