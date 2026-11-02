@@ -36,3 +36,12 @@
     "layout/archive",
     "layout/sidebar"
 ;
+/* Liens en rose Imagine */
+a:not(.btn),
+a:not(.btn):visited {
+  color: #c4006b;
+}
+a:not(.btn):hover,
+a:not(.btn):focus {
+  color: #8f004e;
+}
