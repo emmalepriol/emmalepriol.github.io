@@ -10,6 +10,11 @@ var addressPoints = [
     -2.0260409
   ],
   [
+    "Pr\u00e9sentation de mes travaux aux journ\u00e9es des familles KCNB1 (2023, 2024 et 2025)<br />Journ\u00e9es des familles KCNB1 France, Institut Imagine; Paris, France",
+    48.8588897,
+    2.320041
+  ],
+  [
     "Evaluation of BERT-based models on patient data from French social media<br />MASHS 2024, Universit\u00e9 Paris 1 Panth\u00e9on Sorbonne; Paris, France",
     48.8588897,
     2.320041
