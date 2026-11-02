@@ -6,6 +6,7 @@ permalink: "/teaching/fondements-maths"
 venue: "Université Paris 1 Panthéon-Sorbonne"
 date: 2022-09-01
 location: "Paris, France"
+share: false
 ---
 
 Supports et corrections : à venir.
