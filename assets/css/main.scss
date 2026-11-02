@@ -89,3 +89,60 @@ html[data-theme="dark"] {
   a:not(.btn):hover,
   a:not(.btn):focus { color: $link-hover; }
 }
+
+/* Nuit : boutons sobres, sans cadre clair */
+html[data-theme="dark"] {
+  .btn,
+  .btn--inverse,
+  .btn--primary,
+  .author__urls-wrapper button {
+    background: $bg !important;
+    color: $link !important;
+    border: 1px solid $link !important;
+    box-shadow: none !important;
+  }
+  .btn:hover,
+  .btn:focus,
+  .author__urls-wrapper button:hover {
+    background: $link !important;
+    color: $bg !important;
+  }
+  .author__urls {
+    border-color: $line !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Nuit : menu du haut sans cadre clair */
+html[data-theme="dark"] {
+  .masthead,
+  .masthead__inner-wrap,
+  .greedy-nav,
+  .greedy-nav .visible-links,
+  .greedy-nav .hidden-links,
+  .greedy-nav .hidden-links li {
+    background: $bg !important;
+    border-color: $line !important;
+    box-shadow: none !important;
+  }
+  .greedy-nav button,
+  .greedy-nav .btn {
+    background: $bg !important;
+    color: $link !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+  .greedy-nav .visible-links a:before {
+    background: $link !important;
+  }
+  .greedy-nav a:focus,
+  .greedy-nav button:focus {
+    outline: 2px solid $link;
+    outline-offset: 2px;
+    background: transparent !important;
+  }
+  .greedy-nav .hidden-links:before,
+  .greedy-nav .hidden-links:after {
+    border-color: transparent transparent $line transparent !important;
+  }
+}
