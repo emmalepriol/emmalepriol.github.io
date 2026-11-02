@@ -3,6 +3,7 @@ permalink: /
 title: "À propos / About"
 layout: single
 author_profile: true
+share: false
 ---
 
 [English version below](#english)
