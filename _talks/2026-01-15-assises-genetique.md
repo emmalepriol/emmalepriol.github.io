@@ -6,6 +6,7 @@ permalink: "/talks/2026-01-15-assises-genetique"
 venue: "13èmes assises de génétique humaine et médicale"
 date: 2026-01-28
 location: "Cannes, France"
+share: false
 ---
 
 
