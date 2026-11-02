@@ -25,7 +25,7 @@ var addressPoints = [
     2.320041
   ],
   [
-    "Can Generative LLMs Help Classify Imbalanced Real-World Data? Exploring Rare Diseases on Social Media<br />MedInfo 2025; Taipei, Ta\u00efwan",
+    "Can Generative LLMs Help Classify Imbalanced Real-World Data? Exploring Rare Diseases on Social Media<br />MedInfo 2025; Taipei, Taiwan",
     25.0375198,
     121.5636796
   ],
