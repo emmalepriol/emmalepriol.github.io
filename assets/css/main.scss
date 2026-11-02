@@ -36,73 +36,56 @@
     "layout/archive",
     "layout/sidebar"
 ;
-/* ===== Thème sombre, rose Imagine ===== */
-$bg: #14161f;        // fond de page
-$panel: #1c2030;     // zones secondaires (colonne gauche, pied de page, code)
-$line: #2a2e3d;      // bordures
-$text: #e6e8ef;      // texte
-$muted: #9aa3b2;     // texte secondaire
-$link: #ff4fa3;      // rose éclairci pour les liens (le #c4006b est trop sombre ici)
+
+/* ===== Rose Imagine : jour et nuit ===== */
+
+/* Jour : on ne change que les liens */
+a:not(.btn),
+a:not(.btn):visited { color: #c4006b; }
+a:not(.btn):hover,
+a:not(.btn):focus { color: #8f004e; }
+
+/* Nuit */
+$bg: #14161f;
+$panel: #1c2030;
+$line: #2a2e3d;
+$text: #e6e8ef;
+$muted: #9aa3b2;
+$link: #ff4fa3;
 $link-hover: #ff85c0;
 
-:root { color-scheme: dark; }
+html[data-theme="dark"] {
+  color-scheme: dark;
 
-body,
-.initial-content,
-.page__content,
-.page__inner-wrap {
-  background: $bg;
-  color: $text;
-}
+  body,
+  .initial-content,
+  .page__content,
+  .page__inner-wrap,
+  .masthead,
+  .masthead__inner-wrap,
+  .greedy-nav,
+  .greedy-nav .hidden-links {
+    background: $bg !important;
+    color: $text;
+    border-color: $line;
+  }
 
-h1, h2, h3, h4, h5, h6,
-.page__title,
-.archive__item-title,
-.author__name {
-  color: $text;
-}
+  h1, h2, h3, h4, h5, h6,
+  .page__title, .archive__item-title, .author__name { color: $text; }
 
-.page__meta, .page__date, .author__bio, .archive__item-excerpt,
-figcaption, .page__footer-copyright {
-  color: $muted;
-}
+  .page__meta, .page__date, .author__bio, .archive__item-excerpt,
+  figcaption, .page__footer-copyright { color: $muted; }
 
-/* Menu du haut */
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav,
-.greedy-nav .hidden-links {
-  background: $bg;
-  border-color: $line;
-}
-.greedy-nav a { color: $text; }
+  .greedy-nav a { color: $text; }
 
-/* Colonne de gauche */
-.sidebar { color: $text; }
-.author__urls {
-  background: $panel;
-  border-color: $line;
-}
+  .sidebar, .author__content { color: $text; }
+  .author__urls, .page__footer { background: $panel !important; color: $muted; }
 
-/* Pied de page */
-.page__footer {
-  background: $panel;
-  color: $muted;
-}
+  hr, table, th, td, blockquote, .archive__item, .page__related { border-color: $line; }
+  th, code, pre, blockquote, .notice { background: $panel; color: $text; }
 
-/* Contenu */
-hr, table, th, td, blockquote, .archive__item, .page__related {
-  border-color: $line;
-}
-th { background: $panel; color: $text; }
-code, pre, blockquote, .notice { background: $panel; color: $text; }
-
-/* Liens (hors boutons) */
-a:not(.btn),
-a:not(.btn):visited {
-  color: $link;
-}
-a:not(.btn):hover,
-a:not(.btn):focus {
-  color: $link-hover;
+  a:not(.btn),
+  a:not(.btn):visited { color: $link; }
+  a:not(.btn):hover,
+  a:not(.btn):focus { color: $link-hover; }
 }
