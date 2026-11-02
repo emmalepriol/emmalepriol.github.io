@@ -15,11 +15,15 @@ Mes trois activités professionnelles en tant qu'AHU (Assistante Hospitalo Unive
 Ma thèse en santé publique et science des données (ED 393, Université Paris Cité) s'intitule : "From social media narratives to experiential
 knowledge: a NLP approach to analyzing family narratives in KCNB1-related developmental and epileptic encephalopathy". Elle sera soutenue le 25 novembre 2026. 
 
+[Abstract (PDF)](/files/Unknown-2.pdf)
+
 
 ## English
 
 I am a Hospital-University Assistant Professor and my three professional activities are clinical work in the Department of Hospital Informatics and Public Health at Hôpital Européen Georges-Pompidou (HEGP, AP-HP), teaching at Université Paris Cité, and research in the Clinical Bioinformatics Laboratory at Institut Imagine (INSERM UMR 1163).
 
 My PhD in public health and data science (Doctoral School ED 393, Université Paris Cité) is entitled "From social media narratives to experiential knowledge: a NLP approach to analyzing family narratives in KCNB1-related developmental and epileptic encephalopathy". I will defend it on November 25th, 2026.
+
+[Abstract (PDF)](/files/Unknown-2.pdf)
 
 [Version française](#francais)
