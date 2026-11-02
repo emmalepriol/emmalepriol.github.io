@@ -1,4 +1,6 @@
 main:
+  - title: "A propos/about"
+    url: /about/
   - title: "Publications"
     url: /publications/
   - title: "Conférences/talks"
