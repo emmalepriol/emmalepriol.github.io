@@ -36,12 +36,74 @@
     "layout/archive",
     "layout/sidebar"
 ;
-/* Liens en rose Imagine */
+/* ===== Thème sombre, rose Imagine ===== */
+$bg: #14161f;        // fond de page
+$panel: #1c2030;     // zones secondaires (colonne gauche, pied de page, code)
+$line: #2a2e3d;      // bordures
+$text: #e6e8ef;      // texte
+$muted: #9aa3b2;     // texte secondaire
+$link: #ff4fa3;      // rose éclairci pour les liens (le #c4006b est trop sombre ici)
+$link-hover: #ff85c0;
+
+:root { color-scheme: dark; }
+
+body,
+.initial-content,
+.page__content,
+.page__inner-wrap {
+  background: $bg;
+  color: $text;
+}
+
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title,
+.author__name {
+  color: $text;
+}
+
+.page__meta, .page__date, .author__bio, .archive__item-excerpt,
+figcaption, .page__footer-copyright {
+  color: $muted;
+}
+
+/* Menu du haut */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav .hidden-links {
+  background: $bg;
+  border-color: $line;
+}
+.greedy-nav a { color: $text; }
+
+/* Colonne de gauche */
+.sidebar { color: $text; }
+.author__urls {
+  background: $panel;
+  border-color: $line;
+}
+
+/* Pied de page */
+.page__footer {
+  background: $panel;
+  color: $muted;
+}
+
+/* Contenu */
+hr, table, th, td, blockquote, .archive__item, .page__related {
+  border-color: $line;
+}
+th { background: $panel; color: $text; }
+code, pre, blockquote, .notice { background: $panel; color: $text; }
+
+/* Liens (hors boutons) */
 a:not(.btn),
 a:not(.btn):visited {
-  color: #c4006b;
+  color: $link;
 }
 a:not(.btn):hover,
 a:not(.btn):focus {
-  color: #8f004e;
+  color: $link-hover;
+}
 }
