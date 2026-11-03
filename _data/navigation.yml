@@ -1,7 +1,7 @@
 main:
   - title: "A propos/about"
     url: /about/
-  - title: "Publications"
+  - title: "Publications & preprints"
     url: /publications/
   - title: "Conférences/talks"
     url: /talks/
