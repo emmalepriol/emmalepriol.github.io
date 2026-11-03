@@ -5,19 +5,24 @@ var addressPoints = [
     7.0134418
   ],
   [
+    "From social media to clinical insight: contrastive learning on families\u2019 narratives in an ultra-rare developmental and epileptic encephalopathy<br />Nature Conference - redefining healthcare in the age of AI; Paris, France",
+    48.8534951,
+    2.3483915
+  ],
+  [
     "Exploring rare disease realities: a systematic literature review on harnessing social media patient-generated data<br />S\u00e9minaire de l\u2019ED 393; Saint-Malo, France",
     48.649518,
     -2.0260409
   ],
   [
     "Pr\u00e9sentation de mes travaux aux journ\u00e9es des familles KCNB1 (2023, 2024 et 2025)<br />Journ\u00e9es des familles KCNB1 France, Institut Imagine; Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "Evaluation of BERT-based models on patient data from French social media<br />MASHS 2024, Universit\u00e9 Paris 1 Panth\u00e9on Sorbonne; Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "Evaluation of BERT-based models on patient data from French social media<br />S\u00e9minaire de l\u2019ED 393; Saint-Malo, France",
@@ -26,8 +31,8 @@ var addressPoints = [
   ],
   [
     "Table ronde \u00ab FAIR 2 : la data dans tous ses \u00e9tats \u00bb<br />Institut Imagine; Paris, France",
-    48.8588897,
-    2.320041
+    48.8534951,
+    2.3483915
   ],
   [
     "Can Generative LLMs Help Classify Imbalanced Real-World Data? Exploring Rare Diseases on Social Media<br />MedInfo 2025; Taipei, Taiwan",
