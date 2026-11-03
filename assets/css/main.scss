@@ -37,15 +37,65 @@
     "layout/sidebar"
 ;
 
-/* Nuit : aucun conteneur ne doit avoir son propre fond ni son ombre */
+/* ===== Rose Imagine : liens (jour) + thème nuit ===== */
+
+$bg: #14161f;
+$panel: #1c2030;
+$line: #2a2e3d;
+$text: #e6e8ef;
+$muted: #9aa3b2;
+$link: #ff4fa3;
+$link-hover: #ff85c0;
+
+/* Jour : liens roses */
+a:not(.btn),
+a:not(.btn):visited { color: #c4006b; }
+a:not(.btn):hover,
+a:not(.btn):focus { color: #8f004e; }
+
+/* Nuit */
 html[data-theme="dark"] {
-  div, section, article, aside, nav, header, main, figure, ul, ol, li,
-  .sidebar, .author__content, .page, .page__inner-wrap, .page__content,
-  .archive, .archive__item, .list__item, .layout--single {
+  color-scheme: dark;
+
+  /* Aucun conteneur n'a de fond ni d'ombre propre */
+  div, section, article, aside, nav, header, main, figure, ul, ol, li {
     background-color: transparent;
     box-shadow: none;
   }
-  .masthead, .masthead__inner-wrap {
+
+  body { background: $bg; color: $text; }
+
+  .masthead,
+  .masthead__inner-wrap {
     background-color: $bg;
+    border-color: $line;
   }
+
+  h1, h2, h3, h4, h5, h6,
+  .page__title, .archive__item-title, .author__name { color: $text; }
+
+  .page__meta, .page__date, .author__bio, .archive__item-excerpt,
+  figcaption, .page__footer-copyright,
+  .author__urls li, .author__urls .author__desktop { color: $muted; }
+
+  .masthead__menu-item a { color: $text; }
+  .masthead__menu-item a:hover,
+  .masthead__menu-item a:focus { color: $link-hover; }
+
+  hr, table, th, td, blockquote, .archive__item, .page__related { border-color: $line; }
+  th, code, pre, blockquote, .notice { background-color: $panel; color: $text; }
+  .page__footer { background-color: $panel; color: $muted; }
+
+  .btn,
+  .author__urls-wrapper button {
+    background: transparent !important;
+    color: $link !important;
+    border: 1px solid $link !important;
+    box-shadow: none !important;
+  }
+
+  a:not(.btn),
+  a:not(.btn):visited { color: $link; }
+  a:not(.btn):hover,
+  a:not(.btn):focus { color: $link-hover; }
 }
