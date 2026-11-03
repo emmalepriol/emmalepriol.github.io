@@ -5,6 +5,7 @@ permalink: "/publication/2022-11-01-psoriasis"
 date: 2022-11-01
 venue: "Revue d’Épidémiologie et de Santé Publique, 70, S281-S282"
 citation: "Eteve-Pitsaer, C., Marty, T., Nguyen, A., Le Priol, E., Paris, C., Mebarki, A. (2022). Psoriasis et altérations de la qualité de vie au travail. <i>Revue d’Épidémiologie et de Santé Publique</i>, 70, S281-S282."
+share: false
 ---
 
 [Lire l'article/read the paper](https://www.sciencedirect.com/science/article/abs/pii/S0398762022007726)
