@@ -6,8 +6,6 @@ date: 2026-10-29
 share: false
 ---
 
-Article soumis à JMIR. 
-
-Paper under review at JMIR.  
+Article soumis à JMIR/paper under review at JMIR.  
 
 <!-- venue: "Soumis à EACL" -->
