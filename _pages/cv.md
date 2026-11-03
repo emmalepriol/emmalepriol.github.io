@@ -55,8 +55,8 @@ Autres stages : Calmedica (chatbot basé sur l’IA pour la prise en charge ambu
 
 ### Enseignement
 
-- **Université Paris 1 Panthéon-Sorbonne** : chargée de TD en L1 MIASHS (plus de 100 h par an), depuis septembre 2022 : Techniques de calcul, Fondements des mathématiques, Probabilités.
 - **Université Paris Cité** : santé numérique
+- **Université Paris 1 Panthéon-Sorbonne** : chargée de TD en L1 MIASHS (plus de 100 h par an), depuis septembre 2022 : Techniques de calcul, Fondements des mathématiques, Probabilités.
 - Cours particuliers (4 lycéen·nes accompagné·es), 2016–2020.
 
 Voir aussi la page [Enseignement](/teaching/).
@@ -122,8 +122,8 @@ Other internships: Calmedica (AI-based chatbot for outpatient care, summer 2019)
 
 ### Teaching
 
-- **Université Paris 1 Panthéon-Sorbonne**: tutorial instructor (*chargée de TD*) in first-year MIASHS, over 100 hours per year, since September 2022: Calculus Techniques, Foundations of Mathematics, Probability.
 - **Université Paris Cité**: digital health.
+- **Université Paris 1 Panthéon-Sorbonne**: tutorial instructor (*chargée de TD*) in first-year MIASHS, over 100 hours per year, since September 2022: Calculus Techniques, Foundations of Mathematics, Probability.
 - Private tutoring (4 high-school students), 2016–2020.
 
 See also the [Teaching](/teaching/) page.
