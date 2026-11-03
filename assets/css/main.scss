@@ -37,150 +37,15 @@
     "layout/sidebar"
 ;
 
-/* ===== Rose Imagine : jour et nuit ===== */
-
-/* Jour : on ne change que les liens */
-a:not(.btn),
-a:not(.btn):visited { color: #c4006b; }
-a:not(.btn):hover,
-a:not(.btn):focus { color: #8f004e; }
-
-/* Nuit */
-$bg: #14161f;
-$panel: #1c2030;
-$line: #2a2e3d;
-$text: #e6e8ef;
-$muted: #9aa3b2;
-$link: #ff4fa3;
-$link-hover: #ff85c0;
-
+/* Nuit : aucun conteneur ne doit avoir son propre fond ni son ombre */
 html[data-theme="dark"] {
-  color-scheme: dark;
-
-  body,
-  .initial-content,
-  .page__content,
-  .page__inner-wrap,
-  .masthead,
-  .masthead__inner-wrap,
-  .greedy-nav,
-  .greedy-nav .hidden-links {
-    background: $bg !important;
-    color: $text;
-    border-color: $line;
+  div, section, article, aside, nav, header, main, figure, ul, ol, li,
+  .sidebar, .author__content, .page, .page__inner-wrap, .page__content,
+  .archive, .archive__item, .list__item, .layout--single {
+    background-color: transparent;
+    box-shadow: none;
   }
-
-  h1, h2, h3, h4, h5, h6,
-  .page__title, .archive__item-title, .author__name { color: $text; }
-
-  .page__meta, .page__date, .author__bio, .archive__item-excerpt,
-  figcaption, .page__footer-copyright { color: $muted; }
-
-  .greedy-nav a { color: $text; }
-
-  .sidebar, .author__content { color: $text; }
-  .author__urls, .page__footer { background: $panel !important; color: $muted; }
-
-  hr, table, th, td, blockquote, .archive__item, .page__related { border-color: $line; }
-  th, code, pre, blockquote, .notice { background: $panel; color: $text; }
-
-  a:not(.btn),
-  a:not(.btn):visited { color: $link; }
-  a:not(.btn):hover,
-  a:not(.btn):focus { color: $link-hover; }
-}
-
-/* Nuit : boutons sobres, sans cadre clair */
-html[data-theme="dark"] {
-  .btn,
-  .btn--inverse,
-  .btn--primary,
-  .author__urls-wrapper button {
-    background: $bg !important;
-    color: $link !important;
-    border: 1px solid $link !important;
-    box-shadow: none !important;
-  }
-  .btn:hover,
-  .btn:focus,
-  .author__urls-wrapper button:hover {
-    background: $link !important;
-    color: $bg !important;
-  }
-  .author__urls {
-    border-color: $line !important;
-    box-shadow: none !important;
-  }
-}
-
-/* Nuit : menu du haut sans cadre clair */
-html[data-theme="dark"] {
-  .masthead,
-  .masthead__inner-wrap,
-  .masthead__menu,
-  .masthead__menu ul,
-  .masthead__menu-item,
-  .masthead__menu-item a,
-  .masthead__menu-item a:visited {
-    background: transparent !important;
-    border: 0 !important;
-    box-shadow: none !important;
-    outline: 0;
-  }
-  .masthead,
-  .masthead__inner-wrap {
-    background: $bg !important;
-    border-bottom: 1px solid $line !important;
-  }
-  .masthead__menu-item a {
-    color: $text !important;
-  }
-  .masthead__menu-item a:hover,
-  .masthead__menu-item a:focus {
-    color: $link !important;
-    background: transparent !important;
-  }
-  .masthead__menu-item a:focus-visible {
-    outline: 2px solid $link;
-    outline-offset: 2px;
-  }
-}
-
-/* Nuit : liens de la colonne de gauche sans cadre clair */
-html[data-theme="dark"] {
-  .author__urls-wrapper,
-  .author__urls,
-  .author__urls li,
-  .author__urls li a,
-  .author__urls li a:visited {
-    background: transparent !important;
-    border: 0 !important;
-    box-shadow: none !important;
-    outline: 0;
-  }
-  .author__urls li a {
-    color: $link !important;
-  }
-  .author__urls li a:hover,
-  .author__urls li a:focus {
-    color: $link-hover !important;
-  }
-  .author__urls li a:focus-visible {
-    outline: 2px solid $link;
-    outline-offset: 2px;
-  }
-  .author__urls li,
-  .author__urls .author__desktop {
-    color: $muted;
-  }
-  .author__urls:before,
-  .author__urls:after {
-    display: none !important;
-  }
-  .author__urls-wrapper button {
-    background: transparent !important;
-    color: $link !important;
-    border: 1px solid $link !important;
-    box-shadow: none !important;
+  .masthead, .masthead__inner-wrap {
+    background-color: $bg;
   }
 }
