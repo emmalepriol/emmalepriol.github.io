@@ -117,32 +117,70 @@ html[data-theme="dark"] {
 html[data-theme="dark"] {
   .masthead,
   .masthead__inner-wrap,
-  .greedy-nav,
-  .greedy-nav .visible-links,
-  .greedy-nav .hidden-links,
-  .greedy-nav .hidden-links li {
-    background: $bg !important;
-    border-color: $line !important;
-    box-shadow: none !important;
-  }
-  .greedy-nav button,
-  .greedy-nav .btn {
-    background: $bg !important;
-    color: $link !important;
+  .masthead__menu,
+  .masthead__menu ul,
+  .masthead__menu-item,
+  .masthead__menu-item a,
+  .masthead__menu-item a:visited {
+    background: transparent !important;
     border: 0 !important;
     box-shadow: none !important;
+    outline: 0;
   }
-  .greedy-nav .visible-links a:before {
-    background: $link !important;
+  .masthead,
+  .masthead__inner-wrap {
+    background: $bg !important;
+    border-bottom: 1px solid $line !important;
   }
-  .greedy-nav a:focus,
-  .greedy-nav button:focus {
-    outline: 2px solid $link;
-    outline-offset: 2px;
+  .masthead__menu-item a {
+    color: $text !important;
+  }
+  .masthead__menu-item a:hover,
+  .masthead__menu-item a:focus {
+    color: $link !important;
     background: transparent !important;
   }
-  .greedy-nav .hidden-links:before,
-  .greedy-nav .hidden-links:after {
-    border-color: transparent transparent $line transparent !important;
+  .masthead__menu-item a:focus-visible {
+    outline: 2px solid $link;
+    outline-offset: 2px;
+  }
+}
+
+/* Nuit : liens de la colonne de gauche sans cadre clair */
+html[data-theme="dark"] {
+  .author__urls-wrapper,
+  .author__urls,
+  .author__urls li,
+  .author__urls li a,
+  .author__urls li a:visited {
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    outline: 0;
+  }
+  .author__urls li a {
+    color: $link !important;
+  }
+  .author__urls li a:hover,
+  .author__urls li a:focus {
+    color: $link-hover !important;
+  }
+  .author__urls li a:focus-visible {
+    outline: 2px solid $link;
+    outline-offset: 2px;
+  }
+  .author__urls li,
+  .author__urls .author__desktop {
+    color: $muted;
+  }
+  .author__urls:before,
+  .author__urls:after {
+    display: none !important;
+  }
+  .author__urls-wrapper button {
+    background: transparent !important;
+    color: $link !important;
+    border: 1px solid $link !important;
+    box-shadow: none !important;
   }
 }
