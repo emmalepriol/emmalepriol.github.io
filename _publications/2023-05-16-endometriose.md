@@ -3,8 +3,9 @@ title: "The use of infodemiology in the development of targeted public health ac
 collection: "publications"
 permalink: "/publication/2023-05-16-endometriose"
 date: 2023-05-16
+venue: "JMIR preprints"
 share: false
-préprint: true
+preprint: true
 ---
 
 [Lire l'article/read the paper](https://hal.science/hal-04813830v1/document)
