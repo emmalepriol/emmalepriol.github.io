@@ -11,4 +11,5 @@ preprint: true
 [Lire l'article/read the paper](https://hal.science/hal-04813830v1/document)
 
 A cause de problèmes de financement, cet article reste en preprint. 
+
 For funding reasons, this paper will stay a preprint. 
