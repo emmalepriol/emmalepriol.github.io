@@ -1,8 +1,11 @@
 ---
-permalink: /about/
+permalink: /
 title: "À propos / About"
 layout: single
 author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 share: false
 ---
 
