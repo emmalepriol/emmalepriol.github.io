@@ -3,7 +3,9 @@ title: "Exploring rare disease realities: a systematic literature review on harn
 collection: "publications"
 permalink: "/publication/2024-09-01-rare-disease-review"
 date: 2023-09-08
+venue: "Under review (Orphaned Journal of Rare Diseases)"
 share: false
+preprint: true
 ---
 
 [Lire le preprint/read the preprint](https://hal.science/hal-04813759v1/document)
